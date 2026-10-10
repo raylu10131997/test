@@ -1,0 +1,60 @@
+# Operating System Files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Editor and IDE configurations
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Common dependency & build output directories
+node_modules/
+dist/
+build/
+out/
+target/
+bin/
+obj/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+ENV/
+
+# Logs and databases
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.sqlite
+*.db
+
+# Antigravity agent temp/scratch directories
+.system_generated/
+scratch/
